@@ -1,0 +1,72 @@
+/* AboutPage.css */
+.about-page {
+    font-family: 'Arial', sans-serif; /* Use your preferred font */
+  }
+  
+  .main-image img {
+    width: 100%;
+    /* Set a max-width if necessary */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .text-image-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0;
+    padding: 10px;
+    font-family: Jomolhari;
+    background-color: #FFEBD3;
+  }
+  
+  .text-image-section.left {
+    flex-direction: row;
+  }
+  
+  .text-image-section.right {
+    flex-direction: row-reverse;
+  }
+  
+  .text-content {
+    flex: 1;
+    margin: 0 20px;
+  }
+
+  
+  .text-image-section img {
+    width: 50%;
+    /* Adjust as needed */
+  }
+  
+  .title-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: green;
+  }
+
+  .title-text {
+    font-weight: bold;
+    display: flex;
+    color: white;
+  }
+
+  .slogan {
+    color: #000;
+    text-align: center;
+    font-family: Jomolhari;
+    padding: 10px;
+  }
+
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .text-image-section {
+      flex-direction: column;
+    }
+  
+    .text-image-section img {
+      width: 100%;
+    }
+  }
+  

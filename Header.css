@@ -1,0 +1,11 @@
+.page-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .button
+  {
+    padding: 10px 20px;
+  }

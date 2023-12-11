@@ -1,0 +1,54 @@
+.recipe-page {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+  }
+  
+  .header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .content {
+    background-color: #FFEBD3;
+    padding: 20px;
+    grid-gap: 10px;
+  }
+  
+  .recipe-name{
+    background-color: green;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .ingredients-title {
+    background-color: blue;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ingredient-example {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .ingredient-item {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    /* Add more styles if necessary */
+  }
+  
+  
