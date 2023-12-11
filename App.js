@@ -18,12 +18,13 @@ function App() {
   };
 
   // Example sign-in logic that sets isLoggedIn to true
-  // This should be replaced with your actual sign-in mechanism
+  // This should be replaced with the actual sign-in mechanism
   const handleSignIn = () => {
     // Sign in logic here
     setIsLoggedIn(true);
   };
 
+  // These need to be replaced 
   const recipeName = "my recipe!!";
   const ingredients = ['2 eggs', '1 cup sugar', '1 cup flour', '1 tsp baking powder'];
 
@@ -38,6 +39,7 @@ function App() {
       <div className="App">
       <Header isLoggedIn={isLoggedIn} handleSignOut={handleSignOut} />
         <Routes> 
+          // Must handle correct path name - might be different
           <Route path ="/profile" element = {<Profile></Profile>}/>
           <Route path ="/dashboard" element = {<Dashboard></Dashboard>}/>
           <Route path="/home" element= {<Home/>}/>
